@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       target_version:
-        description: "Version to route traffic to (v1 or v2)"
+        description: " Give Version to route traffic to (v1 or v2)"
         required: true
         default: "v2"
 
